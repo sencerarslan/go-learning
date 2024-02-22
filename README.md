@@ -1,13 +1,13 @@
-# go-learning
+# Go Learning
 
-- `example1`: 1'den 10'a kadar olan sayıların toplamını hesaplayan fonksiyonu çağırır.
-- `example2`: Bir dizideki öğeleri indeks kullanarak yazdıran fonksiyonu çağırır.
-- `example3`: Bir döngü içinde belirli bir koşul sağlandığında döngüyü kırarak çıkan fonksiyonu çağırır.
-- `example4`: Belirli koşullar sağlandığında döngüyü geçen fonksiyonu çağırır.
-- `example5`: Bir slice içindeki her bir eleman için döngü oluşturuyor ve elemanları ekrana yazdırıyor.
-- `example6`: Bir dizedeki (string) her bir karakter için döngü oluşturuyor ve karakterleri ekrana yazdırıyor.
-- `example7`: Bir map içindeki her bir anahtar-değer çifti için döngü oluşturuyor ve anahtarları ve değerleri ekrana yazdırıyor.
-- `example10`: İki tamsayı parametre alır ve bunların toplamını döndürür.
-- `example11`: İki tamsayı parametre alır ve bu parametrelerin toplamını, farkını ve çarpımını döndürür.
-- `example12`: Bir tamsayı dilimi (slice) parametresi alır ve bu dilimdeki tüm elemanların toplamını döndürür.
-- `example13`: Değişken sayıda tamsayı parametre alır ve bu parametrelerin toplamını döndürür.
+| Konu            | Dosya                                          | Açıklama                                                                                                                                                                                                                                   |
+| --------------- | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| For Loops       | [for_loops.go](/util/for_loops.go)             | `for` döngüsü, çeşitli iterasyon işlemleri için kullanılır. Geleneksel `for` döngüsü, `for` anahtar kelimesiyle başlar ve bir koşul ifadesi sağlanana kadar çalışır.                                                                       |
+| Foreach Loops   | [foreach_loops.go](/util/foreach_loops.go)     | `foreach` döngüsü yerine `range` anahtar kelimesiyle döngü yapılır. Bu, koleksiyonların (diziler, haritalar, vb.) her bir elemanı üzerinde dolaşmak için kullanılır.                                                                       |
+| Maps            | [maps.go](/util/maps.go)                       | Map bir anahtar-değer çiftleri koleksiyonunu temsil eder. Her bir anahtarın yalnızca bir değeri olabilir ve anahtarlar eşsiz olmalıdır.                                                                                                    |
+| Functions       | [functions.go](/util/functions.go)             | Fonksiyonlar, tekrar kullanılabilir kod bloklarını tanımlamak için kullanılır. Bir Go programında, bir veya daha fazla fonksiyon bulunur ve genellikle `main` fonksiyonu programın başlangıç noktasıdır.                                   |
+| Pointers        | [pointers.go](/util/pointers.go)               | Pointer'lar, bir değişkenin bellek adresini işaret eden ve bu adres üzerinde doğrudan manipülasyon yapılmasını sağlayan özel veri türleridir.                                                                                              |
+| Structs         | [structs.go](/util/structs.go)                 | Go dilinde yapılar, farklı türlerdeki değerleri gruplamak için kullanılan bir veri türüdür. Yapılar, ilişkili verileri tek bir veri yapısı altında organize etmek için kullanılır.                                                         |
+| Interfaces      | [interfaces.go](/util/interfaces.go)           | Interfaces, bir veya daha fazla yönteme sahip bir veri türünü tanımlayan bir türdür. Bir veri türü, bir arayüzün tüm yöntemlerini uyguladığında, bu veri türü otomatik olarak o interface'e uygular.                                       |
+| Defer           | [defer.go](/util/defer.go)                     | Go dilinde `defer` ifadesi, bir işlevin sonunda çalıştırılacak bir işlemi belirtmek için kullanılır. Bu işlem, işlevin normal akışı tamamlandıktan sonra, ancak işlevin sonlandırılması için beklenen diğer ifadelerden önce çalıştırılır. |
+| Variable Scopes | [variable_scopes.go](/util/variable_scopes.go) | Go dilinde değişkenlerin belirli bir kapsamı vardır. Kapsam, bir değişkenin hangi kod bloğunda kullanılabileceğini belirler. Değişkenlerin tanımlı olduğu yer, onların kapsamını belirler.                                                 |
